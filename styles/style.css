@@ -56,17 +56,14 @@
   text-decoration: none;
 }
 
-.header__logo {
-  display: block;
-  width: 148px;
-}
-
 .header__logo-image {
-  width: 100%;
+  width: 175px;
+  height: 175px;
 }
 
 .header__address {
   justify-self: end;
+  margin-left: auto;
 }
 
 .cover {
@@ -103,21 +100,19 @@
 }
 
 .aligned-text_left {
-  align-self: flex-start;
+  align-self: start;
 }
 
 .aligned-text_center {
   align-self: center;
-  position: relative;
-  left: 15px;
 }
 
 .aligned-text_right {
-  align-self: flex-end;
+  align-self: end;
 }
 
 .letter-spacing-extended {
-  letter-spacing: 30px;
+  letter-spacing: 0.3em;
 }
 
 .letter-spacing-normal {
