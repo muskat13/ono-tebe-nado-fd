@@ -22,10 +22,7 @@
 
 .overlay {
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  inset: 0;
   background-color: rgba(0, 0, 0, 0.6);
 }
 
@@ -33,7 +30,6 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  min-height: 293px;
   padding: 59px 50px;
 }
 
@@ -122,6 +118,10 @@
 
 .letter-spacing-extended {
   letter-spacing: 30px;
+}
+
+.letter-spacing-normal {
+  letter-spacing: normal;
 }
 
 .cover__description {
@@ -291,7 +291,7 @@
 
 .footer {
   display: grid;
-  grid-template-columns: 1fr min-content 1fr;
+  grid-template-columns: 1fr auto 1fr;
   align-items: start;
   margin-top: 180px;
   padding: 0 50px 82px;
@@ -319,7 +319,6 @@
 
 .footer__menu-link {
   color: #000;
-  white-space: nowrap;
   text-decoration: underline;
 }
 
